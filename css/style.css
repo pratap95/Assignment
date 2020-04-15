@@ -1,0 +1,149 @@
+/*Reset css start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Reset css end*/
+
+/*My css start*/
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+b{font-weight: 600;}
+a:hover{text-decoration: none;}
+.big{font-size: 20px;}
+.my-row{margin: 0}
+.logo,.home-logo{width: 40px;margin: 0 auto;text-align: center;}
+.logo img{width:100%;}
+.container{max-width:1200px;width:100%;margin:0 auto}
+small{
+    font-size: 11px;
+}
+.header-wrapper{padding: 15px 0;}
+.search-container .search button {
+    padding: 6px 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+
+  input[type=text] {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color:#4a4b4f;
+    width:200px;
+  }
+.number-container ul li{display: inline-block;font-size: 11px;color: #a6a7ad}
+.number-container ul li .badge{font-size: 20px;color:#2d3551}
+.number-container ul li:last-child{font-size: 20px;margin-left: 30px;}
+.gray-bg{background: #f3f4f8;padding:40px 30px 25px;}
+.main-links li{display: inline-block;margin-right: 20px;}
+.main-links li a{display: inline-block;color: #2d3551;position: relative;}
+.main-links li a::after{content: '';position: absolute;width:0;height:2px;bottom:-15px;left:0;background:#2d3551 }
+.main-links li a:hover::after{width:100%;transition: all .2s;}
+.home-logo{margin: 15px auto 0}
+.home-logo a{color:#7c8293}
+.add-btn a{padding: 5px;border: 1px solid #83889a;font-size: 15px;color: #454c65}
+.selection-section{border-right: 1px solid #ccc;padding: 10px 15px}
+.selection-section p{margin:20px 0 10px;color:#73798c}
+.selection-section select{
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 3px #ccc;
+    padding: 6px;
+    outline: none;
+    color:#73798c
+}
+.white-bg{background: #fff;margin: 15px 0;}
+.right-boxes{padding:30px 0px;}
+.right-boxes > p{color:#636363}
+.box {
+    box-shadow: 0 0 10px #ccc;
+    padding: 30px 20px;
+    margin: 30px 15px 0px;
+}
+.box h2{margin:20px 0;font-weight: 600;}
+.logo-title h3{font-size: 18px;
+    font-weight: 600;}
+.logo-title small{color:#a5a5ac}
+.box p{line-height: 1.5;margin-bottom: 30px;color:#5e647a}
+.name-logo .name{text-align: right;margin-right: 10px}
+.name-logo .name small,.user-logo{color:#93949d}
+.name-logo .name h4{color:#303853}
+.filter-btn button{padding:8px;background:#2d3551;color:#fff;border: none;width: 100%;font-size: 14px}
+.filter-btn button:hover{background: #f3f4f8;color:#2d3551;transition: all .2s;}
+/*My css end*/
+
+@media only screen and (max-width:1200px){
+    .right-boxes {
+        padding: 30px 40px;
+    }
+    .container{padding:0 30px;}
+    .number-container ul li{font-size: 10px;}
+    .number-container ul li .badge{
+        font-size: 11px;
+    }
+    .number-container ul li:last-child{margin-left: 10px;}
+}
+@media only screen and (max-width:1024px){
+    .number-container ul li:not(:last-child){
+        display: none
+    }
+    .number-wrapper{text-align: right}
+}
+@media screen and (max-width:768px){
+    .selection-section{border: none;}
+}
+@media only screen and (max-width:576px)
+{
+    .right-boxes {
+        padding: 30px 0px 0;
+    }
+    .gray-bg,.box{
+        padding: 35px 10px 25px
+    }
+    .main-links,.add-btn{float: none;width: 100%;    margin-bottom: 25px;
+        text-align: center;}
+        .home-logo{margin: 15px auto 10px}
+}

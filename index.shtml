@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
+                        <div class="logo">
+                            <img src="images/VH-logo.png">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-9 col-sm-9 fl">
+                        <div class="search-container">
+                            <form action="" method="" class="search">
+                                <button type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                <input type="text" placeholder="Search for a startup by name..." name="search">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-2 col-sm-2 fr number-wrapper text-right">
+                        <div class="number-container d-inline-block">
+                            <ul>
+                                <li>
+                                    <span class="badge">2322</span>To Meet</li>
+                                <li>
+                                    <span class="badge">2423</span>On Fence</li>
+                                <li>
+                                    <span class="badge">204</span>Not Meeting</li>
+                                <li>
+                                    <span class="badge">113</span>Engaged</li>
+                                <li>
+                                    <span class="badge">74</span>Park & Track</li>
+                                <li>
+                                    <span class="badge">959</span>Not Investing</li>
+                                <li>
+                                    <span class="badge">33</span>Invested</li>
+                                <li>
+                                    <i class="far fa-user"></i>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
+                    <div class="home-logo">
+                        <a href=""><i class="fas fa-home"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 gray-bg">
+                    <div class="main-links fl">
+                        <ul>
+                            <li>
+                                <a href="">Recommendatiions</a>
+                            </li>
+                            <li>
+                                <a href="">Overview</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="add-btn fr">
+                        <a href="">Add Startup</a>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row white-bg">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 selection-section fl">
+                            <p>Stages</p>
+                            <select>
+                                <option value="Select stages">Select stages</option>
+                                <option value="stage 1">stage 1</option>
+                                <option value="stage 2">stage 2</option>
+                                <option value="stage 3">stage 3</option>
+                            </select>
+                            <p>Chiefs</p>
+                            <select>
+                                <option value="Select stages">Select chiefs</option>
+                                <option value="chief 1">chief 1</option>
+                                <option value="chief 2">chief 2</option>
+                                <option value="chief 3">chief 3</option>
+                            </select>
+                            <p>Fundlings</p>
+                            <select>
+                                <option value="Select stages">Select Fundlings</option>
+                                <option value="Fundlings 1">Fundlings 1</option>
+                                <option value="Fundlings 2">Fundlings 2</option>
+                                <option value="Fundlings 3">Fundlings 3</option>
+                            </select>
+                            <p>Sectors</p>
+                            <select>
+                                <option value="Select stages">Select Sectors</option>
+                                <option value="Sectors 1">Sectors 1</option>
+                                <option value="Sectors 2">Sectors 2</option>
+                                <option value="Sectors 3">Sectors 3</option>
+                            </select>
+                            <p>Subsectors</p>
+                            <select>
+                                <option value="Select stages">Select Subsectors</option>
+                                <option value="Subsectors 1">Subsectors 1</option>
+                                <option value="Subsectors 2">Subsectors 2</option>
+                                <option value="Subsectors 3">Subsectors 3</option>
+                            </select>
+                            <p>Location</p>
+                            <select>
+                                <option value="Select stages">Select Location</option>
+                                <option value="Location 1">Location 1</option>
+                                <option value="Location 2">Location 2</option>
+                                <option value="Location 3">Location 3</option>
+                            </select>
+                            <p>Tags</p>
+                            <select>
+                                <option value="Select stages">Select Tags</option>
+                                <option value="Tags 1">Tags 1</option>
+                                <option value="Tags 2">Tags 2</option>
+                                <option value="Tags 3">Tags 3</option>
+                            </select>
+                            <div class="filter-btn text-center mt-5">
+                                <button type="submit">
+                                    APPLY FILTER
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 fr right-boxes">
+                            <p class="ml-3">Total list of 23311 startup</p>
+                            <div class="row justify-content-center my-row">
+                                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 box">
+                                    <div class="logo-title fl">
+                                        <div class="logo d-inline-block align-middle">
+                                            <img src="images/VH-logo.png">
+                                        </div> 
+                                        <div class="logo-title d-inline-block align-middle">
+                                                <h3>Hoi Foods</h3>
+                                            <small>Founded in 2017, Gurgaon</small>
+                                        </div>
+                                    </div>
+                                    <div class="extra-info fr">
+                                        <small>To Meet</small>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <h2>$953.33 k</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad totam odio aliquam, dolore magnam.</p>
+                                    <div class="number fl">
+                                        <b><span class="big">5</span>/</b>5
+                                    </div>
+                                    <div class="name-logo fr">
+                                        <div class="name d-inline-block">
+                                            <small>Chief</small>
+                                            <h4>Lorem, ipsum.</h4>
+                                        </div>
+                                        <div class="user-logo d-inline-block">
+                                            <i class="far fa-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 box">
+                                    <div class="logo-title fl">
+                                        <div class="logo d-inline-block align-middle">
+                                            <img src="images/VH-logo.png">
+                                        </div> 
+                                        <div class="logo-title d-inline-block align-middle">
+                                                <h3>Hoi Foods</h3>
+                                            <small>Founded in 2017, Gurgaon</small>
+                                        </div>
+                                    </div>
+                                    <div class="extra-info fr">
+                                        <small>To Meet</small>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <h2>$953.33 k</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad totam odio aliquam, dolore magnam.</p>
+                                      <div class="number fl">
+                                        <b><span class="big">5</span>/</b>5
+                                    </div>
+                                    <div class="name-logo fr">
+                                        <div class="name d-inline-block">
+                                            <small>Chief</small>
+                                            <h4>Lorem, ipsum.</h4>
+                                        </div>
+                                        <div class="user-logo d-inline-block">
+                                            <i class="far fa-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center my-row">
+                                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 box">
+                                    <div class="logo-title fl">
+                                        <div class="logo d-inline-block align-middle">
+                                            <img src="images/VH-logo.png">
+                                        </div> 
+                                        <div class="logo-title d-inline-block align-middle">
+                                                <h3>Hoi Foods</h3>
+                                            <small>Founded in 2017, Gurgaon</small>
+                                        </div>
+                                    </div>
+                                    <div class="extra-info fr">
+                                        <small>To Meet</small>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <h2>$953.33 k</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad totam odio aliquam, dolore magnam.</p>
+                                     <div class="number fl">
+                                        <b><span class="big">5</span>/</b>5
+                                    </div>
+                                    <div class="name-logo fr">
+                                        <div class="name d-inline-block">
+                                            <small>Chief</small>
+                                            <h4>Lorem, ipsum.</h4>
+                                        </div>
+                                        <div class="user-logo d-inline-block">
+                                            <i class="far fa-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 box">
+                                    <div class="logo-title fl">
+                                        <div class="logo d-inline-block align-middle">
+                                            <img src="images/VH-logo.png">
+                                        </div> 
+                                        <div class="logo-title d-inline-block align-middle">
+                                                <h3>Hoi Foods</h3>
+                                            <small>Founded in 2017, Gurgaon</small>
+                                        </div>
+                                    </div>
+                                    <div class="extra-info fr">
+                                        <small>To Meet</small>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <h2>$953.33 k</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad totam odio aliquam, dolore magnam.</p>
+                                      <div class="number fl">
+                                        <b><span class="big">5</span>/</b>5
+                                    </div>
+                                    <div class="name-logo fr">
+                                        <div class="name d-inline-block">
+                                            <small>Chief</small>
+                                            <h4>Lorem, ipsum.</h4>
+                                        </div>
+                                        <div class="user-logo d-inline-block">
+                                            <i class="far fa-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
